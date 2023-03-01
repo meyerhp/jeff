@@ -1,0 +1,21 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Dependency directories
+/vendor/
+/Godeps/
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Testing binaries
+*.test
+
+# Project-local glide cache, RE: https://github.com/Masterminds/glide/issues/736
+.glide/
+
+.idea
